@@ -9,7 +9,7 @@ The Exercise Tracker is a web application designed to help users keep track of t
 ## Testing Instructions:
 To test the Exercise Tracker project, you can use the provided user stories as test cases. Here are the specific requirements to check:
 
-1. **User Story #1:** You can create a new user by making a POST request to `**/api/users**` with a username. The response should contain the new user object, including a unique `_id`.
+1. **User Story #1:** You can create a new user by making a POST request to **`/api/users`** with a username. The response should contain the new user object, including a unique `_id`.
 2. **User Story #2:** You can retrieve a full list of users by making a GET request to `/api/users`. The response should contain an array of user objects.
 3. **User Story #3:** You can add a new exercise to a user by making a POST request to `/api/users/:_id/exercises`. The response should contain the user's details and the added exercise.
 4. **User Story #4:** You can retrieve an exercise log for a specific user by making a GET request to `/api/users/:_id/exercises`. The response should contain the user's details, an array of exercises, and their respective details.
